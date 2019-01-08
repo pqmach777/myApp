@@ -1,0 +1,167 @@
+{
+    "musicians":[{
+        "name": "ONE OK ROCK",
+        "shortname": "ONE_OK_ROCK",
+        "tour":[{
+            "place": "Houston, Texas",
+            "stage": "House of Blues Houston",
+            "date": "Monday, Mar 11, 2019"
+        },{
+            "place": "Minneapolis, Minnesota",
+            "stage": "Varsity Theatre",
+            "date": "Friday, February 22, 2019"
+        },{
+            "place": "Montreal, Quebec, Canada",
+            "stage": "National",
+            "date": "Friday, March 1, 2019"
+        }],
+        "album":[{
+            "name": "Jinsei x Boku =",
+            "songs":[{
+                "name": "Introduction~Where idiot should go"
+            },{
+                "name": "Ending Story??"
+            },{
+                "name": "ONION!"
+            },{
+                "name": "The Beginning"
+            },{
+                "name": "Clock Strikes"
+            },{
+                "name": "Be the light"
+            },{
+                "name": "Nothing Helps"
+            },{
+                "name": "Junvenile"
+            },{
+                "name": "All Mine"
+            },{
+                "name": "Smiling Down"
+            },{
+                "name": "Deeper Deeper"
+            },{
+                "name": "69"
+            },{
+                "name": "the same as..."
+            }]
+        }]
+    },{
+        "name": "Red Velvet",
+        "shortname": "Red_Velvet",
+        "tour":[{
+            "place": "Pasadena, California",
+            "stage": "The Pasadena Civic",
+            "date": "Friday, February 8, 2019"
+        },{
+            "place": "Chicago, Illinois",
+            "stage": "The Chicago Theatre",
+            "date": "Friday, February 15, 2019"
+        },{
+            "place": "Toronto, Canada",
+            "stage": "Coca-Cola Coliseum",
+            "date": "Tuesday, February 19, 2019"
+        }],
+        "album":[{
+            "name": "The Perfect Red Velvet",
+            "songs":[{
+                "name": "Bad Boy"
+            },{
+                "name": "All Right"
+            },{
+                "name": "Peek-A-Boo"
+            },{
+                "name": "Look"
+            },{
+                "name": "I Just"
+            },{
+                "name": "Kingdom Come"
+            },{
+                "name": "Time to Love"
+            },{
+                "name": "My Second Date"
+            },{
+                "name": "Attaboy"
+            },{
+                "name": "Perfect 10"
+            },{
+                "name": "About Love"
+            },{
+                "name": "Moonlight Melody"
+            }]
+        }]
+    },{
+        "name": "TWICE",
+        "shortname": "TWICE",
+        "tour":[{
+            "place": "Hong Kong, Hong Kong",
+            "stage": "AsiaWorld Expo - Arena (Hall 1)",
+            "date": "Saturday, January 19, 2019"
+        },{
+            "place": "Osaka, Japan",
+            "stage": "Kyocera Dome",
+            "date": "Thursday, March 21, 2019"
+        },{
+            "place": "Tokyo, Japan",
+            "stage": "Tokyo Dome",
+            "date": "Saturday, March 30, 2019"
+        }],
+        "album":[{
+            "name": "Yes or Yes",
+            "year": "2018",
+            "songs":[{
+                "name": "YES or YES"
+            },{
+                "name": "SAY YOU LOVE ME"
+            },{
+                "name": "LALALA"
+            },{
+                "name": "YOUNG & WILD"
+            },{
+                "name": "SUNSET"
+            },{
+                "name": "AFTER MOON"
+            },{
+                "name": "BDZ - Korean Version"
+            }]
+        }]
+    },{
+        "name": "BLACKPINK",
+        "shortname": "BLACKPINK",
+        "tour":[{
+            "place": "Bangkok, Thailand",
+            "stage": "Impact Arena",
+            "date": "Saturday, January 12 2019"
+        },{
+            "place": "Jarkata, Indonesia",
+            "stage": "Indonesia Convention Exhibition",
+            "date": "Saturday, January 19 2019"
+        },{
+            "place": "Hong Kong, Hong Kong",
+            "stage": "AsiaWorld Expo - Arena (Hall 1)",
+            "date": "Saturday, January 26 2019"
+        }],
+        "album":[{
+            "name": "Blackpink in Your Area",
+            "year": "2018",
+            "songs":[{
+                "name": "BOOMBAYAH"
+            },{
+                "name": "WHISTLE"
+            },{
+                "name": "PLAYING WITH FIRE"
+            },{
+                "name": "STAY"
+            },{
+                "name": "AS IF IT'S YOUR LAST"
+            },{
+                "name": "DDU-DU DDU-DU"
+            },{
+                "name": "FOREVER YOUNG"
+            },{
+                "name": "REALLY"
+            },{
+                "name": "SEE YOU LATER"
+            }]
+        }]
+    }]
+}
