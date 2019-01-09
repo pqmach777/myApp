@@ -1,16 +1,22 @@
 const express = require('express');
 
 const router = express.Router();
-
+var data = require('../data/data.json')
 
 router.get('/', (req, res)=>{
+    var musicians = data.musicians;
+    var picture = []
 
-    res.send(`
-    <body background = '/images/musicians/wallpaper.png' style="background-size: cover; background-repeat: no-repeat">
-        <h1 style="color: white">The Musicians</h1> 
-    </body>
-    `)
+    musicians.forEach((item)=>{
+        picture = picture.concat(item.shortname);
+    })
+
+    res.render('index',{
+        pageTitle: 'Muse',
+        shortname: picture,
+        musicians: musicians,
+        pageID: 'home'
+    })
 });
-
 
 module.exports = router;

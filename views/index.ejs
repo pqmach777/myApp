@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Musicians</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link rel='stylesheet' href='/css/style.css' />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-inverse" style="padding: 0; margin:0;">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                        </button>
+                    <a class="navbar-brand" href="#"><%= pageTitle %></a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown"><a href="/musicians" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Musicians <span class="caret"></span></a>                     
+                        <ul class="dropdown-menu">
+                            <li><a href="/musicians">All Musicians</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/musicians/0">ONE OK ROCK</a></li>
+                            <li><a href="/musicians/1">Red Velvet</a></li>
+                            <li><a href="/musicians/2">TWICE</a></li>
+                            <li><a href="/musicians/3">BLACKPINK</a></li>
+                        </ul>
+                    </li> 
+                    <li class="dropdown"><a href="/album" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Albums <span class="caret"></span></a>                     
+                        <ul class="dropdown-menu">
+                            <li><a href="/album">All Albums</a></li>
+                            <li role="separator" class="divider"></li>
+                        </ul>
+                    </li> 
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8 text-justify" id="maincontent">
+                <article class="article">
+                    <h1 class="article-title">MUSE</h1>
+                    <p> Muse is a website that provides visitor with biography of selected musicians, their tours ("past and upcoming tours"), and all of the albums they have completed in their musical career. The albums will include all of the songs listed and some samples of song titles from the album. </p>
+                </article>
+            </div>
+            <aside class="col-sm-4" id="sidebarcontent">
+                    <article class="sidebar">
+                        <h1 class="sidebar-title">Showcasing Artists</h1>
+                        <ul class="sidebar-body">
+                            <li>ONE OK ROCK</li>
+                            <li>Red Velvet</li>
+                            <li>BLACKPINK</li>
+                            <li>TWICE</li>
+                        </ul>
+                        <% if (shortname.length > 0) { %>
+                            <% for (i=0; i< shortname.length; i++) { %>
+                                <img src="/images/musicians/<%= shortname[i] %>_1.png" alt="Picture <%= i %>"width="100" height="80">
+                            <% } %>
+                        <% } %>
+                    </article>
+            </aside>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>

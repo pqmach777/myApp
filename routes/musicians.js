@@ -16,7 +16,7 @@ router.get('/musicians', (req, res)=>{
         html += `
             <li>
                 <h2><a href='/musicians/${count}'>${group.name}</a></h2>
-                <img src='/images/musicians/${group.shortname}_1.png' width="700" height="500">
+                <img src='/images/musicians/${group.shortname}_1.png' width="200" height="150">
                 <div> 
             </li>
             
@@ -33,7 +33,7 @@ router.get('/musicians/:musicianID', (req,res)=>{
 
         html += `
         <h1>${musicians.name}</h1>
-        <img src='/images/musicians/${musicians.shortname}_2.png' width="700" height="500"> 
+        <img src='/images/musicians/${musicians.shortname}_2.png' width="200" height="150"> 
         <div>
         <div> 
         Tour:

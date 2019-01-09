@@ -1,0 +1,29 @@
+p {
+    width: 100%;
+    font-family: Georgia, serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: grey;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: grey;
+}
+#maincontent{
+    line-height: 150%;
+    height: 100vh;
+    border-left: 5vw solid gray;
+    padding-right: 5%;
+    background-color: white;
+}
+#sidebarcontent{
+    height: 100vh;
+    border-right: 5vw solid grey;
+    background-color: white;
+
+}
+
