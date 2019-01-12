@@ -45,6 +45,10 @@
             },{
                 "name": "the same as..."
             }]
+        }],
+        "news":[{
+            "title": "Rock Sound Awards",
+            "content": "We are very excited to reveal that we have won Best Live Performance in this year’s Rock Sound Awards! Thank you so much to everybody who has seen us play this year, and be sure to check out our special cover of Rock Sound featuring a brand new and exclusive photo shoot and interview at AWARDS.ROCKSOUND.TV ! "
         }]
     },{
         "name": "Red Velvet",
@@ -90,6 +94,10 @@
             },{
                 "name": "Moonlight Melody"
             }]
+        }],
+        "news":[{
+            "title": "Red Velvet Successfully Completes First Concert In Singapore, Despite Joy's Unexpected Injury",
+            "content": "Red Velvet brought ReVeluvs (their fandom name) to a fun journey through their first solo concert, Redmare in Singapore on 20 October 2018, at The Star Vista. Redmare followed the quintet consisting of Irene, Joy, Seulgi, Wendy and Yeri to an amusement park where they experienced dream-like settings, shown in 5 VCRs dividing the concert into 5 segments."
         }]
     },{
         "name": "TWICE",
@@ -126,6 +134,10 @@
             },{
                 "name": "BDZ - Korean Version"
             }]
+        }],
+        "news":[{
+            "title": "Check out pure, pastel concept photos for TWICE's 2nd Japanese best album, '#TWICE2'!",
+            "content": "TWICE plan to carry on their extreme popularity in Japan with yet another best-seller-to-be album - their 2nd Japanese best album '#TWICE2'! Back in 2017, TWICE's first best compilation album '#TWICE' became the group's first album to be certified Platinum in Japan. The group is likely to tuck away another certified Platinum album in their belts with the upcoming release of '#TWICE2' - containing a total of 10 tracks including the Japanese and Korean versions of 'LIKEY', 'Heart Shaker', 'What is Love?', 'Dance The Night Away', and 'YES or YES'. TWICE's '#TWICE2' hits store shelves on March 6! Their 3-city dome tour '#Dreamday' in Japan kicks off shortly afterward in Osaka on March 21. Check out the girls' lovely concept and cover images below."
         }]
     },{
         "name": "BLACKPINK",
@@ -166,6 +178,10 @@
             },{
                 "name": "SEE YOU LATER"
             }]
+        }],
+        "news":[{
+            "title": "Black Pink share how meaningful it is to be starting their world tour in Lisa's home country",
+            "content": "Black Pink talked about kicking off their world tour in Thailand. The YG Entertainment girl group is starting the new year with the '2019 World Tour [In Your Area].' The first shows are scheduled to take place at the Impact Arena in Bangkok on January 11-12. Originally scheduled for just one night, in response to the high demands, YG Entertainment added one more night to the stop in Bangkok. All tickets were sold out within an hour of release. On January 9, Black Pink held a press conference in Bangkok to share some thoughts about their first world tour. "
         }]
     }]
 }

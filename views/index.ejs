@@ -13,19 +13,31 @@
     <% include partials/template/header.ejs %>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-8 text-justify" id="maincontent">
+            <div class="col-sm-8 text-justify maincontent" >
                 <article class="article">
                     <h1 class="article-title">MUSE</h1>
                     <p> Muse is a website that provides visitor with biography of selected musicians, their tours ("past and upcoming tours"), and all of the albums they have completed in their musical career. The albums will include all of the songs listed and some samples of song titles from the album. </p>
                 </article>
                 <article class="article">
                     <h1 class="article-title">Latest News</h1>
-                    <p><ul>
-                        <li></li>
-                    </ul></p>
+                    <div class="news-body">
+                        <% if (name.length > 0) { %>
+                            <% for (i=0; i< name.length; i++) { %>
+                                <div class="news-item<%= i %>"><%= name[i] %>
+                                    <div class="news-picture">
+                                        <img src="/images/newsImages/<%= shortname[i] %>_1.jpg" alt="Picture <%= i %>"> 
+                                    </div>
+                                    <div class="news-information">
+                                        <h5><%= newsTitle[i] %></h5>
+                                        <article class="news-article"><%= newsContent[i] %></article>                                                     
+                                    </div>   
+                                </div>
+                            <% } %>
+                        <% } %>
+                    </div>
                 </article>
             </div>
-            <aside class="col-sm-4" id="sidebarcontent">
+            <aside class="col-sm-4 sidebarcontent">
                     <article class="sidebar">
                         <h1 class="sidebar-title">Showcasing Artists</h1>
                         <ul class="sidebar-body">
