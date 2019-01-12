@@ -23,7 +23,6 @@ router.get('/', (req, res)=>{
         newsTitle.push(news[i].title);
         newsContent.push(news[i].content);
     }
-  
 
     
     res.render('index',{

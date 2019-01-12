@@ -53,6 +53,11 @@ img {
     padding-bottom: 5%;
 }
 
+/* Chat formating */
+.chat {
+    margin-top: 10%;
+}
+
 /* index format*/
 .maincontent{
     margin-top: 6%;
