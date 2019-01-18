@@ -2,7 +2,7 @@ const express = require('express');
 
 const router = express.Router();
 
-var data = require('../data/data.json')
+var data = require('../data/data.json');
 
 
 router.get('/musicians', (req, res)=>{
@@ -23,14 +23,14 @@ router.get('/musicians', (req, res)=>{
         `
         
         count++;
-    })
+    });
     
     res.render('musicians',{
         pageTitle: 'Musicians',
         pageID: 'feedback',
         artists: html,
-    })
-})
+    });
+});
 router.get('/musicians/:musicianID', (req,res)=>{
     var musicians = data.musicians[req.params.musicianID]
     var html = "";
@@ -47,7 +47,6 @@ router.get('/musicians/:musicianID', (req,res)=>{
             <li> Place: ${musicians.tour[2].place}, Stage: ${musicians.tour[2].stage}, Date: ${musicians.tour[2].date} </li>
         </ul>
         <div> Album: ${musicians.album[0].name}</div>
-
 
         `;
         let i = 0;

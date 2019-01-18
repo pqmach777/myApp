@@ -1,5 +1,4 @@
 const express = require('express');
-
 const router = express.Router();
 var data = require('../data/data.json')
 
@@ -7,11 +6,11 @@ router.get('/', (req, res)=>{
     var musicians = data.musicians;
     var picture = [];
     var artistName = [];
-
-    var news = []
-    var newsContent = []
-    var newsTitle = []
-    var tour = []
+    var news = [];
+    var newsContent = [];
+    var newsTitle = [];
+    var tour = [];
+    
     musicians.forEach((item)=>{
         picture = picture.concat(item.shortname);
         artistName = artistName.concat(item.name);
@@ -22,7 +21,7 @@ router.get('/', (req, res)=>{
     for(i=0; i < news.length; i++){
         newsTitle.push(news[i].title);
         newsContent.push(news[i].content);
-    }
+    };
 
     
     res.render('index',{
@@ -33,7 +32,7 @@ router.get('/', (req, res)=>{
         shortname: picture,
         musicians: musicians,
         pageID: 'home'
-    })
+    });
 });
 
 module.exports = router;

@@ -14,17 +14,16 @@ router.use(bodyParser.urlencoded({ extended: false }));
 router.post('/api', (req, res) =>{
   feedbackData.unshift(req.body);
   fs.writeFile('./data/feedback.json', JSON.stringify(feedbackData), 'utf8', (err)=> {
-    if (err) {
-      console.log(err);
+    if (err){
+      console.log(err)
     }
   });
   res.json(feedbackData);
 });
 
-
 router.delete('/api/:id',(req, res) => {
   feedbackData.splice(req.params.id, 1);
-  fs.writeFile('./data/feedback.json', JSON.stringify(feedbackData), 'utf8', function(err) {
+  fs.writeFile('./data/feedback.json', JSON.stringify(feedbackData), 'utf8', (err)=> {
     if (err) {
       console.log(err);
     }

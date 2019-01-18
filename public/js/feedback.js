@@ -8,7 +8,8 @@ $(function(){
             title: $('#feedbackForm-title').val(),
             message: $('#feedbackForm-message').val()
         }, updateFeedback)
-    })
+    });
+
     $('.feedback-messages').on('click', (e)=> {
         if (e.target.className == 'deleteButton') {
           $.ajax({
